@@ -2,7 +2,7 @@ package personagem;
 
 public class Program {
     public static void main(String[] args) {
-        PersonagemFactory westerosPersonagemFactory= new WesterosPersonagemFactory();
+        PersonagemFactory westerosPersonagemFactory = new WesterosPersonagemFactory();
         PersonagemFactory terraMediaPersonagemFactory = new TerraMediaPersonagemFactory();
 
         try {
