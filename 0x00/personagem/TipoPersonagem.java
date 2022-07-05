@@ -2,6 +2,6 @@ package personagem;
 
 public enum TipoPersonagem {
 
-    GUERREIRO, MAGO, LADRÃO
+    GUERREIRO, MAGO, LADRAO
 
 }

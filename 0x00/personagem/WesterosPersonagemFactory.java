@@ -7,7 +7,7 @@ public class WesterosPersonagemFactory extends PersonagemFactory {
         if (tipoPersonagem == TipoPersonagem.MAGO) {
 
             return new Mago(nome, 8, 3, 3, 3, 4);
-        } else if (tipoPersonagem == TipoPersonagem.LADRÃO) {
+        } else if (tipoPersonagem == TipoPersonagem.LADRAO) {
 
             return new Ladrao(nome, 1, 8, 7, 7, 10);
         } else if (tipoPersonagem == TipoPersonagem.GUERREIRO) {

@@ -13,7 +13,7 @@ public class Program {
         }
 
         try {
-            Personagem ladinoFrodo = terraMediaPersonagemFactory.createPersonagem(TipoPersonagem.LADRÃO, "Frodo");
+            Personagem ladinoFrodo = terraMediaPersonagemFactory.createPersonagem(TipoPersonagem.LADRAO, "Frodo");
             System.out.println(ladinoFrodo);
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
@@ -34,7 +34,7 @@ public class Program {
         }
 
         try {
-            Personagem ladinoOberynMartell = westerosPersonagemFactory.createPersonagem(TipoPersonagem.LADRÃO, "Oberyn Martell");
+            Personagem ladinoOberynMartell = westerosPersonagemFactory.createPersonagem(TipoPersonagem.LADRAO, "Oberyn Martell");
             System.out.println(ladinoOberynMartell);
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
