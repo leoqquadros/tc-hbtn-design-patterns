@@ -2,46 +2,46 @@ package personagem;
 
 public class Program {
     public static void main(String[] args) {
-        PersonagemFactory terraMediaPersonagemFactory = new WesterosPersonagemFactory();
-        PersonagemFactory westerosPersonagemFactory = new TerraMediaPersonagemFactory();
+        PersonagemFactory terraMediaPersonageFactory = new WesterosPersonagemFactory();
+        PersonagemFactory westernsPersonageFactory = new TerraMediaPersonagemFactory();
 
         try {
-            Personagem magoGandalf = terraMediaPersonagemFactory.createPersonagem(TipoPersonagem.MAGO, "Gandalf");
+            Personagem magoGandalf = terraMediaPersonageFactory.createPersonagem(TipoPersonagem.MAGO, "Gandalf");
             System.out.println(magoGandalf);
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
 
         try {
-            Personagem ladinoFrodo = terraMediaPersonagemFactory.createPersonagem(TipoPersonagem.LADRAO, "Frodo");
+            Personagem ladinoFrodo = terraMediaPersonageFactory.createPersonagem(TipoPersonagem.LADRAO, "Frodo");
             System.out.println(ladinoFrodo);
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
 
         try {
-            Personagem guerreiroAragorn = terraMediaPersonagemFactory.createPersonagem(TipoPersonagem.GUERREIRO, "Aragorn");
+            Personagem guerreiroAragorn = terraMediaPersonageFactory.createPersonagem(TipoPersonagem.GUERREIRO, "Aragorn");
             System.out.println(guerreiroAragorn);
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
 
         try {
-            Personagem magaMelisandre = westerosPersonagemFactory.createPersonagem(TipoPersonagem.MAGO, "Melisandre");
+            Personagem magaMelisandre = westernsPersonageFactory.createPersonagem(TipoPersonagem.MAGO, "Melisandre");
             System.out.println(magaMelisandre);
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
 
         try {
-            Personagem ladinoOberynMartell = westerosPersonagemFactory.createPersonagem(TipoPersonagem.LADRAO, "Oberyn Martell");
+            Personagem ladinoOberynMartell = westernsPersonageFactory.createPersonagem(TipoPersonagem.LADRAO, "Oberyn Martell");
             System.out.println(ladinoOberynMartell);
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
 
         try {
-            Personagem guerreiroKhalDrogo = westerosPersonagemFactory.createPersonagem(TipoPersonagem.GUERREIRO, "Khal Drogo");
+            Personagem guerreiroKhalDrogo = westernsPersonageFactory.createPersonagem(TipoPersonagem.GUERREIRO, "Khal Drogo");
             System.out.println(guerreiroKhalDrogo);
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
