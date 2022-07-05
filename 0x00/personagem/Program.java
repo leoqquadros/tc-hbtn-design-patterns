@@ -2,8 +2,8 @@ package personagem;
 
 public class Program {
     public static void main(String[] args) {
-        PersonagemFactory westerosPersonagemFactory = new WesterosPersonagemFactory();
-        PersonagemFactory terraMediaPersonagemFactory = new TerraMediaPersonagemFactory();
+        PersonagemFactory terraMediaPersonagemFactory = new WesterosPersonagemFactory();
+        PersonagemFactory westerosPersonagemFactory = new TerraMediaPersonagemFactory();
 
         try {
             Personagem magoGandalf = terraMediaPersonagemFactory.createPersonagem(TipoPersonagem.MAGO, "Gandalf");
